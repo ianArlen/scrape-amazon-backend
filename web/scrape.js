@@ -120,7 +120,7 @@ const scrape = async () =>{
                 tmp.title = document.querySelector('#productTitle').innerText;
                 tmp.author = document.querySelector('.author a').innerText;
                 tmp.coverImage = document.querySelector('img[class="a-dynamic-image frontImage"]').src;
-                tmp.value = document.querySelector('[class="ebooksSitbLogo"] img[class="a-dynamic-image frontImage"]').innerText;
+                tmp.value = '0 0';
                 tmp.total = '0 0';
             
                 return tmp;
